@@ -2,10 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Simple Webpage</title>
+    <title>Simple webpage</title>
 </head>
     <body>
-       <h1>Simple Webpage</h1> 
-       <p>Welcome to my simple webpage</p>
+       <h1>Екзит пол у деяких західних регіонах країни</h1> 
+       <h2>За кого віддаєте свій голос?</h2>
+       <h1>Лідери опитування:</h1>
+       
+       <p><b>Солодкий порошок</b></p>
+       <img src="img/poroshenko.jpg" alt="poroshenko">
+       <div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/RU_B-ezADTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        <section>
+           <h2><i><b>Характеристика</b></i></h2>
+           <ol>
+               <li>майже святий</li>
+               <li>любить шоколад</li>
+               <li>на жаль олігарх</li>
+           </ol>
+        </section>
+        
+            <p><i>Дама з косою</i></p>
+            <img src="img/julia.jpg" alt="julia">
+            <div>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/2od8yID7Ss8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+               <p><i><b>Характеристика</b></i></p>
+               <ul>
+                   <li>коса не її</li>
+                   <li><p><i>сиділа на газі </i></p>
+                   <li>а потім в тюрмі)</li>
+               </ul>
+               
+            <h1>Реєстраційна форма для голосування</h1>
+            <label>Виберіть вашого кандидата:</label>
+                <label>
+                     <input type="radio" name="кандидат"> Солодкий порошок   
+                </label>
+                <label>
+                     <input type="radio" name="кандидат"> Дама з косою   
+                </label>
+                <label>
+                     <input type="radio" name="кандидат"> Голубенький нептун   
+                </label>
+                <br>
+                <form method="POST" action="https://formspree.io/maryanvoznyak@gmail.com">
+                <label for="client-name">ПІБ</label>
+                  <input id="client-name" type="text" placeholder="Прізвище ім'я та по-батькові"
+                  name="client-name" required>
+                <label>
+                    Електронна адреса <input type="email" placeholder="Eлектронна адреса"
+                      name="client-email" required>
+                </label>  
+                <br>
+                <label>
+                    Голосую <input type="submit">
+                </label>
+            </form>
     </body>
 </html>
